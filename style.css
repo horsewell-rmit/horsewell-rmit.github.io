@@ -54,6 +54,15 @@ body {
   background-color: black;
 }
 
+a {
+  color: #1600ff;
+}
+a:hover {
+  color: #0b007d;
+  text-shadow: #fbffbc 0px 0px 28px ;
+}
+
+
 h1 {
   font-size: 30px;
   margin-bottom: 10px;
@@ -84,8 +93,9 @@ article {
 
 article > header {
   border-bottom: 1px gray solid;
-    box-shadow: inset 0 7px 14px -7px rgba(0,0,0,0.7);
+  box-shadow: inset 0 7px 14px -7px rgba(0,0,0,0.7);
   position: relative;
+  background-color: rgba(218, 208, 255, 0.68);
 }
 
 article > header > h1 {
@@ -95,10 +105,12 @@ article > header > h1 {
 
 article {
   border-bottom: 1px black solid;
+  position: relative;
 }
 
 .content-container {
   padding: 20px;
+  position: relative;
 }
 
 .rmitdetails span {
@@ -106,8 +118,22 @@ article {
   min-width: 115px;
 }
 
+.job-image {
+  float: right;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
 
-
+@media only screen and (max-width: 470px) {
+  .job-image {
+    float: none;
+    padding: 0;
+    margin: 20px;
+    text-align: center;
+    height: 150px;
+    overflow: hidden;
+  }
+}
 
 
 
