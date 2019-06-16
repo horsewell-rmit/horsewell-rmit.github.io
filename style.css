@@ -125,6 +125,16 @@ article {
   padding-bottom: 20px;
 }
 
+.picture-me {
+  float: right;
+}
+
+.picture-me img {
+  max-width: 200px;
+  -webkit-clip-path: circle(50% at 50% 50%);
+clip-path: circle(50% at 50% 50%);
+}
+
 @media only screen and (max-width: 470px) {
   .job-image {
     float: none;
@@ -133,6 +143,10 @@ article {
     text-align: center;
     height: 150px;
     overflow: hidden;
+  }
+  .picture-me {
+    float: none;
+    text-align: center;
   }
 }
 
