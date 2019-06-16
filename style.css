@@ -60,6 +60,7 @@ a {
 a:hover {
   color: #0b007d;
   text-shadow: #fbffbc 0px 0px 28px ;
+  cursor: pointer;
 }
 
 
