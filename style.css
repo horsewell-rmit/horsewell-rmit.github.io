@@ -127,6 +127,7 @@ article {
 
 .picture-me {
   float: right;
+  padding-left: 5px;
 }
 
 .picture-me img {
@@ -147,6 +148,7 @@ clip-path: circle(50% at 50% 50%);
   .picture-me {
     float: none;
     text-align: center;
+    padding-left: 0;
   }
 }
 
